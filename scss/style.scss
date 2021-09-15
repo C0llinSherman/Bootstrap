@@ -1,0 +1,20 @@
+.carousel {
+    width: 75%;
+    margin: auto;
+}
+.card-body button {
+    margin: auto;
+    width: 50%;
+    align-self: center;
+    background-color: #BF3434;
+    border: 1px solid #BF3434;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 480px) {
+    .carousel{
+        width: 100%;
+    }
+  }
